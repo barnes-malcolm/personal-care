@@ -3,16 +3,26 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 const writeStream = fs.createWriteStream('post.csv')
 
-request('URL', (err, res, html) => {
-    if (!err && res.statusCode == 200) {
-        const $ = cheerio.load(html);
-        //jquery here
+axios.get('https://houston.craigslist.org/d/beauty-services/search/bts').then((res) => {
+    const $ = cheerio.load(res.data);
 
+    $('.result-row').each((i, el) => {
+        const businessName = $(el)
+            .find('a')
+            .text()
+            .replace(/\s\s+/g, '').replace('restorerestore this posting', "");
+        // console.log(businessName); 
+
+        const links = $(el)
+            .find('a')
+
+            .attr('href')
+        // console.log(links);
 
         //Write to csv
-        writeStream.write(`${}, ${} \n`)
+        writeStream.write(`${businessName}, ${links} \n`)
     });
 
-console.log('Scraping Done...')
-}
+    console.log('Scraping Done...')
+
 });
