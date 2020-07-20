@@ -1,0 +1,25 @@
+{
+  "name": "personal-care",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "scrape.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barnes-malcolm/personal-care.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barnes-malcolm/personal-care/issues"
+  },
+  "homepage": "https://github.com/barnes-malcolm/personal-care#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.3"
+  }
+}

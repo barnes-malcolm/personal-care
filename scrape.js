@@ -1,4 +1,4 @@
-const request = require('request');
+const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
 const writeStream = fs.createWriteStream('post.csv')
