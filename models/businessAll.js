@@ -2,22 +2,22 @@ const Sequelize = require("sequelize");
 
 const sequelize = require('../config/connection');
 
-const Business = sequelize.define('business', {
+module.exports = sequelize.define('business', {
     id: {
-        type: Sequelize.INTEGER,
+        type: sequelize.INTEGER,
         autoIncrement: true,
         allowNull: false,
         primaryKey: true
     },
     business_name: Sequelize.STRING,
-    description: Sequelize.STRING,
+    description: Sequelize.TEXT,
     imageUrl: Sequelize.STRING,
-    category: Sequelize.STRING,
     phone: Sequelize.STRING,
     address: Sequelize.STRING,
-    website: Sequelize.STRING
+    website: Sequelize.STRING,
+    category: {
+        type: Sequelize.STRING,
+        defaultValue: 'Beauty Salons'
+    }
+
 });
-
-Business.sync();
-
-module.exports = Business;

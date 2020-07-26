@@ -1,6 +1,7 @@
 // Requiring necessary npm packages
 const path = require('path')
 const bodyParser = require('body-parser')
+const exphbs = require('express-handlebars');
 const express = require("express");
 const session = require("express-session");
 // Requiring passport as we've configured it
@@ -17,6 +18,12 @@ app.use(express.urlencoded({
   extended: true
 }));
 app.use(express.json());
+app.use(bodyParser.json());
+app.engine("handlebars", exphbs({
+  defaultLayout: "main"
+}));
+
+app.set("view engine", "handlebars");
 app.use(express.static("public"));
 // We need to use sessions to keep track of our user's login status
 // app.use(
