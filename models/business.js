@@ -9,11 +9,15 @@ const Business = sequelize.define('business', {
         allowNull: false,
         primaryKey: true
     },
-    name: Sequelize.STRING,
+    business_name: Sequelize.STRING,
     description: Sequelize.STRING,
     imageUrl: Sequelize.STRING,
     category: Sequelize.STRING,
+    phone: Sequelize.STRING,
+    address: Sequelize.STRING,
     website: Sequelize.STRING
 });
+
+Business.sync();
 
 module.exports = Business;

@@ -1,6 +1,6 @@
-var Sequelize = require("sequelize");
+const Sequelize = require("sequelize");
 
-var sequelize = new Sequelize("sequelize_library", "root", "", {
+const sequelize = new Sequelize("personal_caredb", "root", "password", {
     host: "localhost",
     port: 3306,
     dialect: "mysql",
