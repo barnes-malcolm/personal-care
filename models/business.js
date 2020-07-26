@@ -2,22 +2,25 @@ const Sequelize = require("sequelize");
 
 const sequelize = require('../config/connection');
 
-const Business = sequelize.define('business', {
-    id: {
-        type: Sequelize.INTEGER,
-        autoIncrement: true,
-        allowNull: false,
-        primaryKey: true
-    },
-    business_name: Sequelize.STRING,
-    description: Sequelize.STRING,
-    imageUrl: Sequelize.STRING,
-    category: Sequelize.STRING,
-    phone: Sequelize.STRING,
-    address: Sequelize.STRING,
-    website: Sequelize.STRING
-});
+module.exports = function (sequelize, DataTypes) {
+    const Business = sequelize.define("Business", {
+        id: {
+            type: DataTypes.INTEGER,
+            autoIncrement: true,
+            allowNull: false,
+            primaryKey: true
+        },
+        name: DataTypes.STRING,
+        description: DataTypes.TEXT,
+        imageUrl: DataTypes.STRING,
+        phone: DataTypes.STRING,
+        address: DataTypes.STRING,
+        website: DataTypes.STRING,
+        category: {
+            type: DataTypes.STRING,
+            defaultValue: 'Beauty Salons'
+        }
 
-Business.sync();
-
-module.exports = Business;
+    });
+    return Business;
+};

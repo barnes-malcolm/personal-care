@@ -1,8 +1,12 @@
 // Requiring our models and passport as we've configured it
 const db = require("../models");
-const passport = require("../config/passport");
 
-module.exports = function(app) {
+const passport = require("../config/passport");
+const {
+  request
+} = require("chai");
+
+module.exports = function (app) {
   // Using the passport.authenticate middleware with our local strategy.
   // If the user has valid login credentials, send them to the members page.
   // Otherwise the user will be sent an error
@@ -19,9 +23,9 @@ module.exports = function(app) {
   // otherwise send back an error
   app.post("/api/signup", (req, res) => {
     db.User.create({
-      email: req.body.email,
-      password: req.body.password
-    })
+        email: req.body.email,
+        password: req.body.password
+      })
       .then(() => {
         res.redirect(307, "/api/login");
       })
@@ -50,4 +54,19 @@ module.exports = function(app) {
       });
     }
   });
+
+  // Post route for business listing
+  app.post('/api/business', (req, res) => {
+    db.Business.create({
+      name: request.body.name,
+      address: request.body.address,
+      phone: request.body.phone,
+      description: request.body.description,
+      category: request.body.category,
+      website: request.body.website,
+      imageUrl: request.body.imageUrl,
+    }).then((business) => {
+      response.json(business)
+    });
+  })
 };
