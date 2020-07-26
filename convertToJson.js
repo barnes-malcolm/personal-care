@@ -2,19 +2,19 @@ const CSVToJSON = require('csvtojson');
 const fs = require('fs');
 
 // convert users.csv file to JSON array
-CSVToJSON().fromFile('./beauty_tx.csv')
-    .then(beauty_tx => {
+CSVToJSON().fromFile('./businesses.csv')
+    .then(businesses => {
 
         // users is a JSON array
         // log the JSON array
-        console.log(beauty_tx);
+        console.log(businesses);
     }).catch(err => {
         // log error if any
         console.log(err);
 
     });
 
-// fs.writeFile('beauty_tx.json', JSON.stringify(beauty_tx, null, 200), (err) => {
+// fs.writeFile('beauty_tx.json', JSON.stringify(businesses, null, 200), (err) => {
 //         if (err) {
 //             throw err;
 //         }
