@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Passport Authentication</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
+  <link href="stylesheets/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/logout">
+          Logout
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h2>Welcome <span class="member-name"></span></h2>
+        <br />
+        <h3>View Your Business <a href="/business">here</a></h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h3>Register your business Below <span class="register"></span></h2>
+      </div>
+      <!-- </div> -->
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <form class="signup" id="businessSignup">
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Business Name</label>
+            <input class="form-control" type="text" name="name" placeholder="Business name">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Description</label>
+            <textarea class="form-control" name="description" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Business Adrress</label>
+            <input type="text" class="form-control" name="address" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Phone number</label>
+            <input class="form-control" type="text" name="phone" placeholder="phone number">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Select Category</label>
+            <select class="form-control" id="exampleFormControlSelect1" name="category">
+              <option>Aromatherapy</option>
+              <option>Barbers</option>
+              <option>Beauty Salons</option>
+              <option>Cosmetologists</option>
+              <option>Day Spas</option>
+              <option>Electrolysis</option>
+              <option>Hair Salon</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-default">Register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/members.js"></script>
+
+</body>
+
+</html>
