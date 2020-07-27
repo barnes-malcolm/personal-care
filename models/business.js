@@ -12,10 +12,10 @@ module.exports = function (sequelize, DataTypes) {
         },
         name: DataTypes.STRING,
         description: DataTypes.TEXT,
-        imageUrl: DataTypes.STRING,
+        // imageUrl: DataTypes.STRING,
         phone: DataTypes.STRING,
         address: DataTypes.STRING,
-        website: DataTypes.STRING,
+        // website: DataTypes.STRING,
         category: {
             type: DataTypes.STRING,
             defaultValue: 'Beauty Salons'
