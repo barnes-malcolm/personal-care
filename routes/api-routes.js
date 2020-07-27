@@ -55,18 +55,28 @@ module.exports = function (app) {
     }
   });
 
+  app.get('/api/allbusinesses', (req, res) => {
+    var b = await db.Business.findAll()
+    console.log(b)
+    res.json(b)
+  })
+
   // Post route for business listing
   app.post('/api/business', (req, res) => {
+    console.log(req.body)
     db.Business.create({
-      name: request.body.name,
-      address: request.body.address,
-      phone: request.body.phone,
-      description: request.body.description,
-      category: request.body.category,
-      website: request.body.website,
-      imageUrl: request.body.imageUrl,
-    }).then((business) => {
-      response.json(business)
-    });
+        name: req.body.name,
+        address: req.body.address,
+        phone: req.body.phone,
+        description: req.body.description,
+        category: req.body.category,
+        // website: req.body.website,
+        // imageUrl: req.body.imageUrl,
+      }).then((business) => {
+        res.json(business)
+      })
+      .catch(function (err) {
+        console.log(err)
+      });
   })
 };
