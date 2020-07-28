@@ -1,0 +1,842 @@
+(module.exports = [
+  {
+    "name": "Trade Secret",
+    "description": "null",
+    "phone": "(713) 984-1700",
+    "address": "900 Gessner Rd, Houston, TX 77024",
+    "website": "http://tradesecret.com/"
+  },
+  {
+    "name": "Eduardo's Hair Design",
+    "description": "null",
+    "phone": "(713) 641-1177",
+    "address": "12344 Gulf Fwy Ste D, Houston, TX 77034",
+    "website": ""
+  },
+  {
+    "name": "Rita Moncada Hair Designs",
+    "description": "null",
+    "phone": "(281) 531-1386",
+    "address": "14520 Memorial Dr Ste 82, Houston, TX 77079",
+    "website": ""
+  },
+  {
+    "name": "The Loc Den",
+    "description": "LOC/DREADSPalm rollInterlock/latchingRepair/reconstructionNo slippage No breakage Loc Extensions!!!!!!Crocheted Locs for Str8 Hair (not Interlocking)Styles & MoreStr8, kinky or curly this is the place for YOU!Natural Styles BraidsFreestylesCornrows w/DesignsInvisiblesMicrosSenegalesesFlatTwistBantu Knots Coil/comb Twist Two strand twist Two strand flat twist Deep ConditioningSteam treatmentsStudent Discounts!",
+    "phone": "(832) 504-1189",
+    "address": "10911 Bammel North Houston Rd, Houston, TX 77086",
+    "website": "http://www.thelocden.com/"
+  },
+  {
+    "name": "Gilded Hair & Nails Salon",
+    "description": "null",
+    "phone": "(713) 462-2117",
+    "address": "9613 Kempwood Dr, Houston, TX 77080",
+    "website": ""
+  },
+  {
+    "name": "Spoiled Studio Salon",
+    "description": "null",
+    "phone": "(713) 688-8141",
+    "address": "7400 W Tidwell Rd, Houston, TX 77040",
+    "website": ""
+  },
+  {
+    "name": "Today's Hair Styles",
+    "description": "null",
+    "phone": "(281) 463-8474",
+    "address": "6128 Highway 6 N, Houston, TX 77084",
+    "website": "http://www.todayshairstyles.net/"
+  },
+  {
+    "name": "TGF Hair Salon",
+    "description": "TGF Hair Salon in Houston offers a full range of hair services for women and men including cuts, color, texturizing, styling and waxing-all at an affordable price. Our professional stylists will help you find a style that fits your lifestyle and looks great. Plus, shop for the shampoo, conditioner and styling products needed to keep it looking great. Stop by TGF Hair Salon at 2534 S Voss Rd at the South Voss Shopping Center today and be confident you'll get the look you want.",
+    "phone": "(713) 781-7333",
+    "address": "2534 S Voss Rd, Houston, TX 77057",
+    "website": "http://www.tgfhairsalons.com/"
+  },
+  {
+    "name": "Burn's Salon",
+    "description": "null",
+    "phone": "(713) 491-7140",
+    "address": "8613 Mesa Dr, Houston, TX 77028",
+    "website": ""
+  },
+  {
+    "name": "Tori Castro Hair & Extensions",
+    "description": "null",
+    "phone": "(713) 869-2444",
+    "address": "2313 Edwards St, Houston, TX 77007",
+    "website": "http://www.satorisalon.com/"
+  },
+  {
+    "name": "Rachel's Hair Salon",
+    "description": "null",
+    "phone": "(281) 345-1151",
+    "address": "15841 Fm 529 Rd, Houston, TX 77095",
+    "website": "https://www.fantasticsams.com/"
+  },
+  {
+    "name": "Bae Tina",
+    "description": "null",
+    "phone": "(281) 556-1588",
+    "address": "14364 Memorial Dr, Houston, TX 77079",
+    "website": ""
+  },
+  {
+    "name": "Beauty Salon 2002",
+    "description": "null",
+    "phone": "(713) 514-9933",
+    "address": "95 S Lockwood Dr, Houston, TX 77011",
+    "website": ""
+  },
+  {
+    "name": "Q Salon 2",
+    "description": "null",
+    "phone": "(281) 855-8580",
+    "address": "17817 Fm 529 Rd, Houston, TX 77095",
+    "website": ""
+  },
+  {
+    "name": "Hair Strand",
+    "description": "null",
+    "phone": "(713) 455-7884",
+    "address": "1404 Holland St, Houston, TX 77029",
+    "website": ""
+  },
+  {
+    "name": "All About Image The Salon",
+    "description": "null",
+    "phone": "(855) 881-3373",
+    "address": "2189 Cypress Creek Pkwy Ste 212, Houston, TX 77090",
+    "website": ""
+  },
+  {
+    "name": "Classic Hair",
+    "description": "null",
+    "phone": "(281) 376-8364",
+    "address": "21165 State Highway 249, Houston, TX 77070",
+    "website": ""
+  },
+  {
+    "name": "Beauty Express",
+    "description": "null",
+    "phone": "(713) 270-9596",
+    "address": "8282 Bellaire Blvd Ste 146, Houston, TX 77036",
+    "website": ""
+  },
+  {
+    "name": "Ranis Beauty Salon",
+    "description": "null",
+    "phone": "(713) 665-7264",
+    "address": "8130 Kirby Dr, Houston, TX 77054",
+    "website": "http://ranisbeautysalon.com/"
+  },
+  {
+    "name": "Style Masters Of Houston",
+    "description": "null",
+    "phone": "(713) 784-4003",
+    "address": "5353 W Alabama St Ste 101, Houston, TX 77056",
+    "website": ""
+  },
+  {
+    "name": "TGF Hair Salon",
+    "description": "TGF Hair Salon in Houston offers a full range of hair services for women and men including cuts, color, texturizing, styling and waxing--all at an affordable price. Our professional stylists will help you find a style that fits your lifestyle and looks great. Plus, shop for the shampoo, conditioner and styling products needed to keep it looking great. Stop by TGF Hair Salon at 111 Yale St at the Located Inside Walmart #5959 today and be confident you'll get the look you want.",
+    "phone": "(832) 618-1009",
+    "address": "111 Yale St, Houston, TX 77007",
+    "website": "http://www.tgfhairsalons.com/"
+  },
+  {
+    "name": "Hanna Salon",
+    "description": "null",
+    "phone": "(713) 378-9377",
+    "address": "914 Edgebrook Dr, Houston, TX 77034",
+    "website": ""
+  },
+  {
+    "name": "Xenia's Hair Salon",
+    "description": "null",
+    "phone": "(281) 537-2040",
+    "address": "3203 Cypress Creek Pkwy Ste 5, Houston, TX 77068",
+    "website": "http://www.xeniashairsalon.com/"
+  },
+  {
+    "name": "Master Stylist Shannon Nicole Stylez of Houston",
+    "description": "",
+    "phone": "(832) 352-7625",
+    "address": "9420 Jensen Dr # 3, Houston, TX 77093",
+    "website": ""
+  },
+  {
+    "name": "Ep Natural Hair Care",
+    "description": "null",
+    "phone": "(281) 272-7040",
+    "address": "10950 North Fwy, Houston, TX 77037",
+    "website": "http://epnaturalhaircare.com/"
+  },
+  {
+    "name": "Arte Salon",
+    "description": "null",
+    "phone": "(281) 893-3923",
+    "address": "12002 Veterans Memorial Dr Ste E, Houston, TX 77067",
+    "website": "http://artesalon.com/"
+  },
+  {
+    "name": "Beauty Switch Hair Salon",
+    "description": "null",
+    "phone": "(281) 988-9120",
+    "address": "11652 Southwest Fwy, Houston, TX 77031",
+    "website": ""
+  },
+  {
+    "name": "Enhance The Beauty Natural  Hair Spa",
+    "description": "As the owner of Enhance The Beauty Natural Hair Spa, my passion is to provide customer service that somehow have been dimenished and is no longer in most places we patronize. You will receive services in a clean, mature professional environment that you can be pleased with. I look forward in speaking with you soon to start or maintain YOUR natural hair journey!",
+    "phone": "(832) 294-7258",
+    "address": "1808 Wheeler St, Houston, TX 77004",
+    "website": ""
+  },
+  {
+    "name": "Helen's Hair & Nail Salon",
+    "description": "null",
+    "phone": "(281) 444-5387",
+    "address": "14429 Bammel North Houston Rd, Houston, TX 77014",
+    "website": "http://helen-e.com/"
+  },
+  {
+    "name": "Everlasting Beauty Salon",
+    "description": "null",
+    "phone": "(281) 922-4450",
+    "address": "10820 Hughes Rd, Houston, TX 77089",
+    "website": ""
+  },
+  {
+    "name": "Estilo's Beauty Salon",
+    "description": "null",
+    "phone": "(713) 271-3663",
+    "address": "9305 Fondren Rd, Houston, TX 77074",
+    "website": ""
+  },
+  {
+    "name": "Beauty Lounge",
+    "description": "null",
+    "phone": "(281) 209-0979",
+    "address": "3500 N Terminal Rd, Houston, TX 77032",
+    "website": "http://christonsalon07.weebly.com/"
+  },
+  {
+    "name": "Salon Studio Dean Mcneely",
+    "description": "null",
+    "phone": "(713) 290-1175",
+    "address": "1822 W 43rd St, Houston, TX 77018",
+    "website": "http://www.salonstudiodean.com/"
+  },
+  {
+    "name": "Finesse Salon & Spa",
+    "description": "null",
+    "phone": "(713) 461-5633",
+    "address": "12526 Memorial Dr, Houston, TX 77024",
+    "website": ""
+  },
+  {
+    "name": "About Hair",
+    "description": "null",
+    "phone": "(281) 463-3616",
+    "address": "15422 Fm 529 Rd, Houston, TX 77095",
+    "website": ""
+  },
+  {
+    "name": "Lola's Hair",
+    "description": "null",
+    "phone": "(713) 774-7672",
+    "address": "8104 Southwest Fwy, Houston, TX 77074",
+    "website": "http://www.lolashair.com/"
+  },
+  {
+    "name": "Mary's Hair Salon",
+    "description": "null",
+    "phone": "(281) 370-8302",
+    "address": "10801 Spring Cypress Rd, Houston, TX 77070",
+    "website": ""
+  },
+  {
+    "name": "LL Hair Studio",
+    "description": "null",
+    "phone": "(281) 550-5302",
+    "address": "8475 Highway 6 N Ste F, Houston, TX 77095",
+    "website": "http://www.llhairstudiosalon.com/"
+  },
+  {
+    "name": "Courtyard Salon",
+    "description": "null",
+    "phone": "(281) 345-3900",
+    "address": "8560 Highway 6 N, Houston, TX 77095",
+    "website": "http://courtyardsalonstexas.com/"
+  },
+  {
+    "name": "Super Weave Xpress",
+    "description": "null",
+    "phone": "(832) 649-8288",
+    "address": "3113 Fountain View Dr, Houston, TX 77057",
+    "website": "http://www.superweavexpress.com/"
+  },
+  {
+    "name": "TGF Hair Salon",
+    "description": "null",
+    "phone": "(281) 858-4900",
+    "address": "4935 Highway 6 N, Houston, TX 77084",
+    "website": "http://www.tgfhairsalons.com/"
+  },
+  {
+    "name": "Tina's Hair Studio",
+    "description": "null",
+    "phone": "(281) 480-6564",
+    "address": "1080 Clear Lake City Blvd Ste A, Houston, TX 77062",
+    "website": ""
+  },
+  {
+    "name": "Anahi Hair Salon",
+    "description": "null",
+    "phone": "(713) 283-9996",
+    "address": "13407 Main St, Houston, TX 77035",
+    "website": ""
+  },
+  {
+    "name": "Salon Park",
+    "description": "null",
+    "phone": "(713) 590-1200",
+    "address": "5288 W 34th St, Houston, TX 77092",
+    "website": "http://www.salonpark.com/"
+  },
+  {
+    "name": "Eshallence Hair Design",
+    "description": "null",
+    "phone": "(713) 645-9939",
+    "address": "4431 Griggs Rd, Houston, TX 77021",
+    "website": ""
+  },
+  {
+    "name": "Salon Social",
+    "description": "null",
+    "phone": "(713) 932-0435",
+    "address": "12355 Kingsride Ln, Houston, TX 77024",
+    "website": "http://www.salon-social.com/"
+  },
+  {
+    "name": "Beauty Empire",
+    "description": "null",
+    "phone": "(281) 874-0089",
+    "address": "15002 Ella Blvd Ste 36, Houston, TX 77090",
+    "website": "http://www.beautyempirestore.com/"
+  },
+  {
+    "name": "Hair & Now",
+    "description": "null",
+    "phone": "(281) 469-9575",
+    "address": "9639 Cypress Creek Pkwy, Houston, TX 77070",
+    "website": ""
+  },
+  {
+    "name": "Salon Boutique",
+    "description": "null",
+    "phone": "(281) 457-4455",
+    "address": "16211 Clay Rd, Houston, TX 77084",
+    "website": ""
+  },
+  {
+    "name": "Dpelos",
+    "description": "null",
+    "phone": "(281) 219-2332",
+    "address": "4740 Aldine Mail Route Rd Ste B, Houston, TX 77039",
+    "website": ""
+  },
+  {
+    "name": "Salon Oasis",
+    "description": "null",
+    "phone": "(281) 558-4247",
+    "address": "1000 W Oaks Mall Ste 238, Houston, TX 77082",
+    "website": ""
+  },
+  {
+    "name": "E Styles Hair",
+    "description": "Come into E Styles Hair Salon and experience a totally relaxing, private, and professional environment. As as licensed professional, I have an established clientele with over 20 years of experience in hair care and quality work, including High Frequency. Please call me today for a FREE consultation or to ask any questions you might have!",
+    "phone": "(713) 885-8719",
+    "address": "1430 Cypress Creek Pkwy, Houston, TX 77090",
+    "website": "http://www.estyleshair.com/"
+  },
+  {
+    "name": "Versatile Beauty Center & Salon",
+    "description": "null",
+    "phone": "(713) 840-9955",
+    "address": "5175 Westheimer Rd, Houston, TX 77056",
+    "website": ""
+  },
+  {
+    "name": "Beauty By Bruce",
+    "description": "null",
+    "phone": "(281) 859-6689",
+    "address": "4600 Highway 6 N Ste 265, Houston, TX 77084",
+    "website": ""
+  },
+  {
+    "name": "Kelley's Beauty Salon",
+    "description": "null",
+    "phone": "(281) 440-5002",
+    "address": "13821 Breck St, Houston, TX 77066",
+    "website": ""
+  },
+  {
+    "name": "The Queens Palace Salon",
+    "description": "null",
+    "phone": "(281) 213-2628",
+    "address": "2611 Cypress Creek Pkwy, Houston, TX 77068",
+    "website": ""
+  },
+  {
+    "name": "TGF Hair Salon",
+    "description": "TGF Hair Salon in Houston offers a full range of hair services for women and men including cuts, color, texturizing, styling and waxing-all at an affordable price. Our professional stylists will help you find a style that fits your lifestyle and looks great. Plus, shop for the shampoo, conditioner and styling products needed to keep it looking great. Stop by TGF Hair Salon at 5805 E Sam Houston Pkwy Ste C at the New Forest Crossing Shop Ctr today and be confident you'll get the look you want.",
+    "phone": "(281) 458-4100",
+    "address": "5805 E Sam Houston Pkwy N Ste C, Houston, TX 77049",
+    "website": "http://www.tgfhairsalons.com/"
+  },
+  {
+    "name": "Lord & Ladies Hair Designing",
+    "description": "null",
+    "phone": "(713) 666-2091",
+    "address": "8805 Stella Link Rd, Houston, TX 77025",
+    "website": ""
+  },
+  {
+    "name": "Ovations Hair Studios & Spa",
+    "description": "null",
+    "phone": "(713) 533-0008",
+    "address": "2410 Quenby St, Houston, TX 77005",
+    "website": ""
+  },
+  {
+    "name": "Beauty Elite Group",
+    "description": "null",
+    "phone": "(281) 872-8030",
+    "address": "20411 Imperial Valley Dr, Houston, TX 77073",
+    "website": "http://beautyelitegroup.com/"
+  },
+  {
+    "name": "Amy Ngan Beauty & Design",
+    "description": "null",
+    "phone": "(281) 498-7183",
+    "address": "11360 Bellaire Blvd Ste 270, Houston, TX 77072",
+    "website": ""
+  },
+  {
+    "name": "Studio 31 Hair Lab",
+    "description": "null",
+    "phone": "(713) 533-9990",
+    "address": "2600 Travis St Ste 205, Houston, TX 77006",
+    "website": "http://www.studio31hairlab.com/"
+  },
+  {
+    "name": "Venus Hair",
+    "description": "null",
+    "phone": "(713) 868-4725",
+    "address": "361 W 19th St, Houston, TX 77008",
+    "website": "http://www.venushairhouston.com/"
+  },
+  {
+    "name": "Hair Sensation",
+    "description": "null",
+    "phone": "(713) 467-0084",
+    "address": "8705 Katy Fwy # 106, Houston, TX 77024",
+    "website": ""
+  },
+  {
+    "name": "A Christian Hairstylist",
+    "description": "null",
+    "phone": "(832) 885-6441",
+    "address": "13308 Fm 1960 Rd W, Houston, TX 77065",
+    "website": ""
+  },
+  {
+    "name": "Monica Seymour Hair Design",
+    "description": "null",
+    "phone": "(713) 523-6682",
+    "address": "2470 Times Blvd, Houston, TX 77005",
+    "website": ""
+  },
+  {
+    "name": "Simply Hair Elegance",
+    "description": "Simply Hair Elegance features two of Houston's most unique and talented master hair technicians.  Between Gwen Mitchell of Shearnique Hair Studio and Katherine Sanders of Simply Hair Elegance aka Katherine's Kreations:  these ladies have over 40 years experience in the hair care industry.  Now, back under one roof at Simply Hair Elegance, 7457 Harwin Drive, Suite 131, Houston, TX 77036.  Looking forward to servicing Houston, Texas and beyond!",
+    "phone": "(713) 702-1692",
+    "address": "7457 Harwin Dr Ste 318, Houston, TX 77036",
+    "website": ""
+  },
+  {
+    "name": "Great Hair Plus",
+    "description": "null",
+    "phone": "(281) 477-0088",
+    "address": "19742 State Highway 249, Houston, TX 77070",
+    "website": "http://www.greatclips.com/"
+  },
+  {
+    "name": "Exclusive 4 Salon Studios",
+    "description": "null",
+    "phone": "(281) 257-3301",
+    "address": "21638 State Highway 249 Ste F, Houston, TX 77070",
+    "website": ""
+  },
+  {
+    "name": "Assure image hair and nail salon",
+    "description": "null",
+    "phone": "(713) 777-4455",
+    "address": "5300 N Braeswood Blvd Ste 80, Houston, TX 77096",
+    "website": ""
+  },
+  {
+    "name": "Visage Salon & Day Spa",
+    "description": "null",
+    "phone": "(281) 379-1772",
+    "address": "11910 Louetta Rd Ste A, Houston, TX 77070",
+    "website": "http://www.visage-salon-spa.com/"
+  },
+  {
+    "name": "Beauty Salon Nails by Lupita II",
+    "description": "null",
+    "phone": "(713) 928-6988",
+    "address": "5705 Gulf Fwy, Houston, TX 77023",
+    "website": ""
+  },
+  {
+    "name": "Houston Lashology...an eyelash extension studio",
+    "description": "",
+    "phone": "(281) 679-7050",
+    "address": "1111 Eldridge Pkwy Ste 400, Houston, TX 77077",
+    "website": "http://www.houstonlashology.com/"
+  },
+  {
+    "name": "Summerwood Salon",
+    "description": "null",
+    "phone": "(281) 225-4218",
+    "address": "13157 W Lake Houston Pkwy, Houston, TX 77044",
+    "website": ""
+  },
+  {
+    "name": "Flower Child's Studio Salon",
+    "description": "null",
+    "phone": "(713) 726-1650",
+    "address": "14460 Hillcroft St, Houston, TX 77085",
+    "website": "http://www.flower-childs.com/"
+  },
+  {
+    "name": "Mary's Hair Salon",
+    "description": "null",
+    "phone": "(713) 777-7773",
+    "address": "8803 Brae Acres Rd, Houston, TX 77074",
+    "website": ""
+  },
+  {
+    "name": "Michael Saldana Salon Midtown",
+    "description": "null",
+    "phone": "(713) 528-3699",
+    "address": "1319 W Webster St, Houston, TX 77019",
+    "website": "https://www.michaelsaldanasalon.com/"
+  },
+  {
+    "name": "The Q Salon",
+    "description": "null",
+    "phone": "(713) 785-6633",
+    "address": "7537 Westheimer Rd, Houston, TX 77063",
+    "website": ""
+  },
+  {
+    "name": "White Oak Plaza Beauty Salon",
+    "description": "null",
+    "phone": "(713) 864-8138",
+    "address": "600 Heights Blvd, Houston, TX 77007",
+    "website": ""
+  },
+  {
+    "name": "Shear Passion",
+    "description": "null",
+    "phone": "(832) 447-4327",
+    "address": "10950 North Fwy Suite 301, Houston, TX 77037",
+    "website": "http://www.shearpassion.vpweb.com/"
+  },
+  {
+    "name": "Trade Secret",
+    "description": "null",
+    "phone": "(713) 626-2277",
+    "address": "5135 W Alabama St, Houston, TX 77056",
+    "website": "http://tradesecret.com/"
+  },
+  {
+    "name": "Damsels And Blokes",
+    "description": "null",
+    "phone": "(832) 559-7504",
+    "address": "22448 State Highway 249, Houston, TX 77070",
+    "website": "http://www.damselsandblokes.com/"
+  },
+  {
+    "name": "Studio 58 Hair & Spa",
+    "description": "null",
+    "phone": "(281) 320-8881",
+    "address": "15006 Rose Valley Dr, Houston, TX 77070",
+    "website": "http://studio58dayspa.com/"
+  },
+  {
+    "name": "Creative Art",
+    "description": "null",
+    "phone": "(713) 973-0630",
+    "address": "11317 Katy Fwy, Houston, TX 77079",
+    "website": "http://www.creativeblinds.com/index.php"
+  },
+  {
+    "name": "Beauty Elite Group",
+    "description": "null",
+    "phone": "(281) 872-8030",
+    "address": "835 Greens Pkwy Ste 200, Houston, TX 77067",
+    "website": ""
+  },
+  {
+    "name": "Beautique Day Spa & Salon",
+    "description": "null",
+    "phone": "(713) 464-2953",
+    "address": "701 Town And Country Blvd Ste 1900, Houston, TX 77024",
+    "website": "http://www.beautique.cc/"
+  },
+  {
+    "name": "The Ambiance Salon",
+    "description": "null",
+    "phone": "(281) 583-8900",
+    "address": "17101 Kuykendahl Rd, Houston, TX 77068",
+    "website": ""
+  },
+  {
+    "name": "Le Blanc Salon & Spa",
+    "description": "Enjoy a full range of spa services at LeBlanc Salon & Spa. Let our experienced technicians pamper you in luxury and comfort.",
+    "phone": "(832) 830-8334",
+    "address": "4822 Washington Ave, Houston, TX 77007",
+    "website": "http://www.leblancsalon.com/"
+  },
+  {
+    "name": "TheIntlStrandHaven.com",
+    "description": "null",
+    "phone": "(832) 340-8042",
+    "address": "2656 S Loop W, Houston, TX 77054",
+    "website": ""
+  },
+  {
+    "name": "Hair by Angel",
+    "description": "null",
+    "phone": "(281) 484-9926",
+    "address": "12035 Beamer Rd, Houston, TX 77089",
+    "website": ""
+  },
+  {
+    "name": "Edith's Beauty Salon",
+    "description": "null",
+    "phone": "(281) 919-1341",
+    "address": "12035 Bammel North Houston Rd, Houston, TX 77066",
+    "website": ""
+  },
+  {
+    "name": "La Lumière Beauty Salon",
+    "description": "null",
+    "phone": "(713) 692-2875",
+    "address": "3712 Alba Rd, Houston, TX 77018",
+    "website": ""
+  },
+  {
+    "name": "Hair Today Beauty Salons",
+    "description": "null",
+    "phone": "(713) 780-1226",
+    "address": "10628 Westheimer Rd, Houston, TX 77042",
+    "website": "http://www.hair-today.com/"
+  },
+  {
+    "name": "Distinctive Looks Salon",
+    "description": "null",
+    "phone": "(281) 866-0310",
+    "address": "12806 Willow Centre Dr Ste B, Houston, TX 77066",
+    "website": ""
+  },
+  {
+    "name": "Anisa Beauty Parlor",
+    "description": "null",
+    "phone": "(713) 774-7575",
+    "address": "6121 Hillcroft St Ste D, Houston, TX 77081",
+    "website": "http://www.anisabeautyparlor.com/"
+  },
+  {
+    "name": "Atrium Salon & Day Spa",
+    "description": "null",
+    "phone": "(281) 897-9518",
+    "address": "9516 Jones Rd Ste H, Houston, TX 77065",
+    "website": "http://www.atriumspa.com/"
+  },
+  {
+    "name": "Hair Desire Salon",
+    "description": "null",
+    "phone": "(713) 861-0162",
+    "address": "920 Studemont St Ste 600, Houston, TX 77007",
+    "website": "http://hairdesiresalon.com/"
+  },
+  {
+    "name": "Bella Hair Studio",
+    "description": "null",
+    "phone": "(713) 941-9407",
+    "address": "403 Edgebrook Dr, Houston, TX 77034",
+    "website": ""
+  },
+  {
+    "name": "De Cache Beauty Salon",
+    "description": "null",
+    "phone": "(713) 451-1590",
+    "address": "172 Uvalde Rd, Houston, TX 77015",
+    "website": ""
+  },
+  {
+    "name": "Healthy Hair Houston",
+    "description": "I have specialized in healthy hair care for over 13 years.At Healthy hair houston I realize that every client is diferent so through out the years i have continued in education.the study of the scalp and various disorders, .",
+    "phone": "(281) 608-2374",
+    "address": "15626 Silver Ridge Dr Ste 113, Houston, TX 77090",
+    "website": "http://www.healthyhairhouston.com/"
+  },
+  {
+    "name": "Flair Salon of Beauty",
+    "description": "null",
+    "phone": "(713) 723-0355",
+    "address": "9704 Hillcroft St, Houston, TX 77096",
+    "website": "http://salonsofamerica.com/"
+  },
+  {
+    "name": "Revivance Hair Salon",
+    "description": "null",
+    "phone": "(713) 655-8646",
+    "address": "1200 Louisiana St, Houston, TX 77002",
+    "website": "http://revivancehairsalon.com/"
+  },
+  {
+    "name": "Flawless Image",
+    "description": "null",
+    "phone": "(713) 451-3002",
+    "address": "779 Normandy St, Houston, TX 77015",
+    "website": "http://www.flawlessimagehairsalon.com/"
+  },
+  {
+    "name": "Perfect Beauty",
+    "description": "null",
+    "phone": "(281) 488-8802",
+    "address": "2403 Bay Area Blvd Ste F, Houston, TX 77058",
+    "website": ""
+  },
+  {
+    "name": "Pro-Cuts",
+    "description": "null",
+    "phone": "(281) 463-1316",
+    "address": "4978 Highway 6 N Ste K, Houston, TX 77084",
+    "website": "http://www.pro-cuts.com/"
+  },
+  {
+    "name": "The Cutting Room",
+    "description": "null",
+    "phone": "(713) 522-5637",
+    "address": "1425 Westheimer Rd, Houston, TX 77006",
+    "website": "http://www.tcroom.com/"
+  },
+  {
+    "name": "Visible Changes (inside Willowbrook Mall)",
+    "description": "In 1977, Visible Changes began a revolution in the hairdressing industry with a company that delivered high quality services from well-trained stylists. Maryanne McCormack began with one salon in Greenspoint Mall in Houston, Texas, and the company has grown to include salons across the state of Texas. Today, Visible Changes has hair salons located in major malls in Houston, Austin, San Antonio and Frisco (Dallas area). \n \nOver the years Visible Changes salons have become known for outstanding customer service, creative and innovative styles and most importantly our well-educated, talented team. The creative work from Visible Changes has been featured in Passion, Styles and Stylists magazines, and in fashion publications around the world \n \nVisible Changes was recognized in 1983 by Intercoiffure, an organization that extends its membership to only the finest hair designers in the world. Visible Changes was listed twice as one of INC Magazines' fastest growing companies, and in 2006, Visible Changes won Salon Entrepreneur of the Year at the Global Salon Business Awards in Barcelona, Spain. Visible Changes has been recognized as a  “Best Places to Work” winner from The Houston Business Journal, and as a \"Top Work Place\" by the Houston Chronicle. \n \nOur award-winning hair cutting system was created by founder Maryanne McCormack after years of personal study under such hair styling pioneers as Paul Mitchell. At Visible Changes, we require all new staff members to complete our Basic Training Program, whether they are new cosmetology graduates or experienced in the industry. Requiring this intense education is necessary to maintain the level of quality that is Visible Changes' standard which allows us to guarantee that our clients will receive the same high quality, Visible Changes experience at each salon location in Houston, Austin, San Antonio or Frisco (Dallas area). \n \nVisible Changes salons are well-known nationally and internationally as a cutting edge salon business. We have received awards from magazines for our quality services and innovative business models, work closely with leading beauty manufacturers and have been pioneering the salon industry practices since we were founded in 1977. \n \nWe have always believed that the client comes first and we strive to bring you the best hair salon experience in Texas.",
+    "phone": "(281) 890-7489",
+    "address": "2000 Willowbrook Mall Suite 1322, Houston, TX 77070",
+    "website": "http://visiblechanges.com/"
+  },
+  {
+    "name": "True Beauty Makeup Artistry",
+    "description": "W",
+    "phone": "(832) 441-9850",
+    "address": "10303 Northwest Fwy, Houston, TX 77040",
+    "website": "http://www.tbmartistry.com/"
+  },
+  {
+    "name": "Hair Spa",
+    "description": "null",
+    "phone": "(281) 464-7335",
+    "address": "11579 S Wilcrest Dr, Houston, TX 77099",
+    "website": "http://joetoga.com/"
+  },
+  {
+    "name": "Beauty Magic Salon",
+    "description": "null",
+    "phone": "(713) 647-0388",
+    "address": "2014 Gessner Rd, Houston, TX 77080",
+    "website": ""
+  },
+  {
+    "name": "Isabel",
+    "description": "null",
+    "phone": "(281) 454-6672",
+    "address": "6415 S Lake Houston Pkwy, Houston, TX 77049",
+    "website": "http://lealiproestilista.vpweb.com/"
+  },
+  {
+    "name": "Hair Trendz",
+    "description": "null",
+    "phone": "(281) 496-9441",
+    "address": "13306 Westheimer Rd, Houston, TX 77077",
+    "website": ""
+  },
+  {
+    "name": "Cut & Style",
+    "description": "null",
+    "phone": "(713) 772-0550",
+    "address": "7909 Hillcroft St, Houston, TX 77081",
+    "website": ""
+  },
+  {
+    "name": "Serenity Hair Studio",
+    "description": "null",
+    "phone": "(713) 723-0056",
+    "address": "5901 Westheimer Rd., Suite # B2, Houston, TX 77057",
+    "website": ""
+  },
+  {
+    "name": "TGF Hair Salon",
+    "description": "TGF Hair Salon in Houston offers a full range of hair services for women and men including cuts, color, texturizing, styling and waxing-all at an affordable price. Our professional stylists will help you find a style that fits your lifestyle and looks great. Plus, shop for the shampoo, conditioner and styling products needed to keep it looking great. Stop by TGF Hair Salon at 14680 Memorial Dr at the Memorial Shopping Center today and be confident you'll get the look you want.",
+    "phone": "(281) 870-0950",
+    "address": "14680 Memorial Dr, Houston, TX 77079",
+    "website": "http://www.tgfhairsalons.com/"
+  },
+  {
+    "name": "Xcess Salon",
+    "description": "null",
+    "phone": "(713) 934-7951",
+    "address": "3006 Blalock Rd, Houston, TX 77080",
+    "website": ""
+  },
+  {
+    "name": "Nu Identity Salon",
+    "description": "null",
+    "phone": "(281) 444-4575",
+    "address": "13535 Bammel North Houston Rd, Houston, TX 77066",
+    "website": "http://www.nuidentityhairsalon.com/"
+  },
+  {
+    "name": "Phoenix Hair Salon",
+    "description": "null",
+    "phone": "(713) 644-1280",
+    "address": "8200 Broadway St Apt 135n, Houston, TX 77061",
+    "website": ""
+  },
+  {
+    "name": "Salon Boutique",
+    "description": "null",
+    "phone": "(281) 257-4455",
+    "address": "118 Vintage Park Blvd Ste 91, Houston, TX 77070",
+    "website": "http://www.ohsochicboutique.net/"
+  },
+  {
+    "name": "Texas Hair Team",
+    "description": "null",
+    "phone": "(281) 454-5888",
+    "address": "12710 W Lake Houston Pkwy Ste C, Houston, TX 77044",
+    "website": "http://www.hairsalonflairteamllc.com/"
+  }
+])
