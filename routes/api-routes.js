@@ -1,10 +1,12 @@
 // Requiring our models and passport as we've configured it
 const db = require("../models");
-
+const Sequelize = require('sequelize')
 const passport = require("../config/passport");
-const { request } = require("chai");
+const {
+  request
+} = require("chai");
 
-module.exports = function(app) {
+module.exports = function (app) {
   // Using the passport.authenticate middleware with our local strategy.
   // If the user has valid login credentials, send them to the members page.
   // Otherwise the user will be sent an error
@@ -21,9 +23,9 @@ module.exports = function(app) {
   // otherwise send back an error
   app.post("/api/signup", (req, res) => {
     db.User.create({
-      email: req.body.email,
-      password: req.body.password,
-    })
+        email: req.body.email,
+        password: req.body.password,
+      })
       .then(() => {
         res.redirect(307, "/api/login");
       })
@@ -53,29 +55,46 @@ module.exports = function(app) {
     }
   });
 
-  app.get("/api/allbusinesses", (req, res) => {
-    db.Business.findAll({}).then(function(b) {
-      console.log(b);
-      res.json(b);
-    });
+
+  //Get route for all bussinesss
+  app.get('/api/allbusiness/', function (req, res) {
+    db.Business.findAll({})
+      .then(function (dbbusiness) {
+        res.json(dbbusiness)
+      });
+  });
+
+  app.get('/api/business/name/:query', function (req, res) {
+    db.Business.findAll({
+      limit: 10,
+      where: {
+        name: {
+          [Sequelize.Op.like]: '%' + req.param.query + '%'
+        }
+      }
+    }).then(function (res) {
+      res.json(res);
+    })
+  });
+
+  app.get('/api/business/:id', function (req, res) {
+    db.Business.findAll({
+        where: {
+          id: req.params.id
+        }
+      })
+      .then(function (dbbusiness) {
+        res.json(dbbusiness)
+      });
   });
 
   // Post route for business listing
-  app.post("/api/business", (req, res) => {
-    console.log(req.body);
-    db.Business.create({
-      name: req.body.name,
-      address: req.body.address,
-      phone: req.body.phone,
-      description: req.body.description,
-      category: req.body.category,
-      // website: req.body.website,
-      // imageUrl: req.body.imageUrl,
-    })
-      .then((business) => {
-        res.json(business);
+  app.post('/api/business', (req, res) => {
+    console.log(req.body)
+    db.Business.create(req.body).then((business) => {
+        res.json(business)
       })
-      .catch(function(err) {
+      .catch(function (err) {
         console.log(err);
       });
   });
