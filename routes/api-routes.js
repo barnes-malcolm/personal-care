@@ -1,6 +1,6 @@
 // Requiring our models and passport as we've configured it
 const db = require("../models");
-
+const Sequelize = require('sequelize')
 const passport = require("../config/passport");
 const {
   request
@@ -62,6 +62,19 @@ module.exports = function (app) {
       .then(function (dbbusiness) {
         res.json(dbbusiness)
       });
+  });
+
+  app.get('/api/business/name/:query', function (req, res) {
+    db.Business.findAll({
+      limit: 10,
+      where: {
+        name: {
+          [Sequelize.Op.like]: '%' + req.param.query + '%'
+        }
+      }
+    }).then(function (res) {
+      res.json(res);
+    })
   });
 
   app.get('/api/business/:id', function (req, res) {
