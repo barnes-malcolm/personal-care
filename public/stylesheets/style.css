@@ -4,10 +4,48 @@ form.login {
 }
 
 .hero {
-  height: 800px;
-  width: 100%;
-  margin-bottom: 25px;
-  background-image: url("../images/digital-marketing-meeting.jpg");
-  background-size: cover;
-  background-position: center;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/empty-sofa-in-hair-salon-1509396-1280x960.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#nav-color {
+  background-color: lightblue !important;
+}
+
+
+h1 {
+  text-align: center;
+  margin: 50px;
+  
+}
+
+.btn-warning {
+  margin: 50px;
+  color: black !important;
+}
+
+.results {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 50px;
+}
+
+.jumbotron {
+  margin: 50px; 
+}
+
+.biz-card {
+  margin: 50px;
+ 
+}
+
+.reviews {
+  text-align: center;
+  margin: auto;
+  padding: 50px;
 }
