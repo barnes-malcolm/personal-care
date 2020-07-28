@@ -61,24 +61,25 @@ module.exports = function (app) {
     db.Business.findAll({})
       .then(function (dbbusiness) {
         res.json(dbbusiness)
-      })
-  })
+      });
+  });
 
-  // Post route
-  // for business listing
+  app.get('/api/business/:id', function (req, res) {
+    db.Business.findAll({
+        where: {
+          id: req.params.id
+        }
+      })
+      .then(function (dbbusiness) {
+        res.json(dbbusiness)
+      });
+  });
+
+  // Post route for business listing
   app.post('/api/business', (req, res) => {
     console.log(req.body)
-    db.Business.create({
-        name: req.body.name,
-        address: req.body.address,
-        phone: req.body.phone,
-        description: req.body.description,
-        category: req.body.category,
-        // website: req.body.website,
-        // imageUrl: req.body.imageUrl,
-      })
-      .then((business) => {
-        res.json(business);
+    db.Business.create(req.body).then((business) => {
+        res.json(business)
       })
       .catch(function (err) {
         console.log(err);
