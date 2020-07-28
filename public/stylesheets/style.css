@@ -1,8 +1,23 @@
+/*Sign up form*/
 form.signup,
 form.login {
   margin-top: 50px;
 }
 
+.border {
+  border: 3px solid lightblue;
+  padding: 50px;
+  box-shadow: 5px 10px lightgray;
+  border-radius: 30px;
+  background-color: whitesmoke;
+}
+
+.font {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+
+}
+/*Sign up form*/
 .hero {
     height: 800px;
     width: 100%;
