@@ -2,7 +2,7 @@
 
 ## Description
 
-This app is for business owners of beauty/health/wellness salons, etc; spas, venues to offer their services. This app displays services & prices, the content is user-generated, offers member profiles for customer engagement, and interacts with a calendar api for booking
+This app is for business owners and customers of beauty, health, wellness salons, spas, venues to offer their services. This app displays services & prices, the content is user-generated, offers member profiles for customer engagement, and interacts with a calendar api for booking
 
 ## Table of Contents (Optional)
 
@@ -15,7 +15,7 @@ This app is for business owners of beauty/health/wellness salons, etc; spas, ven
 
 ## Installation
 
-Navigate to the website [Personal Care](https://github.com/barnes-malcolm/personal-care).
+Navigate to the website [Personal Care](https://personal-care.herokuapp.com/).
 
 ## Usage
 
