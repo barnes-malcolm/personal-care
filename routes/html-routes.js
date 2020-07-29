@@ -52,6 +52,9 @@ module.exports = function(app) {
       res.render("results", hbsObject);
     });
   });
+  app.get("/createbusiness", function(req, res) {
+    res.render("newbiz", {});
+  });
   app.get("/business/:id", function(req, res) {
     db.Business.findOne({ where: { id: req.params.id } }).then(function(data) {
       // console.log(data);
