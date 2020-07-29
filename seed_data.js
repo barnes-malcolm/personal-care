@@ -129,7 +129,7 @@ module.exports = [
   },
   {
     name: "Ranis Beauty Salon",
-    description: "null",
+    description: "Full Service Beauty Salon to cover all your beauty needs. Our salon environment offers an upscale, professional atmosphere with a relaxed, laid back feel.",
     phone: "(713) 665-7264",
     address: "8130 Kirby Dr, Houston, TX 77054",
     website: "http://ranisbeautysalon.com/",
@@ -158,14 +158,14 @@ module.exports = [
   },
   {
     name: "Xenia's Hair Salon",
-    description: "null",
+    description: "Here at Xenia's Hair Salon, we strive to make you look as beautiful on the outside as you are on the inside. Our licensed stylists offer Professional Highlights and Color, as well as, modern Hairstyles for both Men and Women.",
     phone: "(281) 537-2040",
     address: "3203 Cypress Creek Pkwy Ste 5, Houston, TX 77068",
     website: "http://www.xeniashairsalon.com/",
   },
   {
     name: "Master Stylist Shannon Nicole Stylez of Houston",
-    description: "",
+    description: "null",
     phone: "(832) 352-7625",
     address: "9420 Jensen Dr # 3, Houston, TX 77093",
     website: "",
