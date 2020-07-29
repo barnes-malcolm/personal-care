@@ -31,7 +31,20 @@ module.exports = function(app) {
         res.status(401).json(err);
       });
   });
-
+  app.post("/api/reviews", (req, res) => {
+    db.User.create({
+      title: req.body.title,
+      body: req.body.body,
+      user: req.body.user,
+      businessId: req.body.businessId,
+    })
+      .then(() => {
+        res.redirect(307, "/api/login");
+      })
+      .catch((err) => {
+        res.status(401).json(err);
+      });
+  });
   // Route for logging user out
   app.get("/logout", (req, res) => {
     req.logout();
