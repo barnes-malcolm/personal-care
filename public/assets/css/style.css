@@ -92,3 +92,8 @@ h2:target {
   color: white;
   background: #1c87c9;
 }
+
+#new-biz {
+  margin-bottom: 50px;
+  background-color: white !important;
+}
