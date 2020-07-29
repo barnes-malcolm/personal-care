@@ -3,7 +3,7 @@ const path = require("path");
 var express = require("express");
 
 var router = express.Router();
-var cat = require("../models/business");
+var db = require("../models/index.js");
 // Requiring our custom middleware for checking if a user is logged in
 const isAuthenticated = require("../config/middleware/isAuthenticated");
 
@@ -15,13 +15,14 @@ module.exports = function(app) {
   //   }
   //   res.sendFile(path.join(__dirname, "../public/signup.html"));
   // });
-  router.get("/", function(req, res) {
-    cat.all(function(data) {
+  app.get("/", function(req, res) {
+    db.Business.findAll({}).then(function(data) {
+      console.log(data);
       var hbsObject = {
         business: data,
       };
       console.log(hbsObject);
-      res.render("main", hbsObject);
+      res.render("home", hbsObject);
     });
   });
 
