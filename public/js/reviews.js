@@ -1,16 +1,9 @@
 alert();
-<<<<<<< HEAD
-var reveiwForem = document.getElementById("reviewForm")
-reviewForm.addEventListener("click", function(e) {
-    e.preventDefault();
-    var data = new FormData
-})
-=======
 var reviewForm = document.getElementById("reviewForm");
-reviewForm.addEventListener("click", function(e) {
-  e.preventDefault();
-  var data = new FormData(reviewForm);
-  console.log(data);
+reviewForm.addEventListener("click", function (e) {
+    e.preventDefault();
+    var data = new FormData(reviewForm);
+    console.log(data);
 });
 // $.ajax({
 //   url: "/api/reviews",
@@ -24,4 +17,3 @@ reviewForm.addEventListener("click", function(e) {
 //   },
 //   contentType: "application/json",
 // });
->>>>>>> 5cb6603b7e3557acc847bc95703ee7e4c26a7e0f
