@@ -30,7 +30,7 @@ module.exports = [
   },
   {
     name: "Gilded Hair & Nails Salon",
-    description: "null",
+    description: "Enter the hair salon with a personal experience, our salon is small but big in regard of experience and expertise. We know exactly what we are doing and what we can do for each one of our customer. We will make each hair style or hair cut just as good as you can imagine. When you come here you'll feel at home and with our friendly staff, we strive in providing exceptional service in a clean, friendly and comfortable atmosphere for you. We will make each and every visit a great experience for you, we promise.",
     phone: "(713) 462-2117",
     address: "9613 Kempwood Dr, Houston, TX 77080",
     website: "",
@@ -73,7 +73,7 @@ module.exports = [
   },
   {
     name: "Rachel's Hair Salon",
-    description: "null",
+    description: "For an ultimate one-of-a-kind hair care experience, look no further than Rachel’s Hair Salon in Houston. This salon offers personalized haircuts and color processes for both men and women.",
     phone: "(281) 345-1151",
     address: "15841 Fm 529 Rd, Houston, TX 77095",
     website: "https://www.fantasticsams.com/",
@@ -115,7 +115,7 @@ module.exports = [
   },
   {
     name: "Classic Hair",
-    description: "null",
+    description: "Our goal is to provide you with the highest quality hair-care services, in the most comfortable and desirable environment possible. Our love of hairdressing and concern for people is the basis of our business philosophy and has elevated the Classic Hair salon teams to the highest level of individual achievement.",
     phone: "(281) 376-8364",
     address: "21165 State Highway 249, Houston, TX 77070",
     website: "",
