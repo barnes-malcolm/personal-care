@@ -27,6 +27,12 @@ form.login {
     background-position: center;
 }
 
+.images {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 25px;
+}
+
 #nav-color {
   background-color: lightblue !important;
 }
