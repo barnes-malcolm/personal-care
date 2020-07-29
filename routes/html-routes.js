@@ -1,16 +1,28 @@
 // Requiring path to so we can use relative routes to our HTML files
 const path = require("path");
+var express = require("express");
 
+var router = express.Router();
+var cat = require("../models/business");
 // Requiring our custom middleware for checking if a user is logged in
 const isAuthenticated = require("../config/middleware/isAuthenticated");
 
-module.exports = function (app) {
-  app.get("/", (req, res) => {
-    // If the user already has an account send them to the members page
-    if (req.user) {
-      res.redirect("/members");
-    }
-    res.sendFile(path.join(__dirname, "../public/signup.html"));
+module.exports = function(app) {
+  // app.get("/", (req, res) => {
+  //   // If the user already has an account send them to the members page
+  //   if (req.user) {
+  //     res.redirect("/members");
+  //   }
+  //   res.sendFile(path.join(__dirname, "../public/signup.html"));
+  // });
+  router.get("/", function(req, res) {
+    cat.all(function(data) {
+      var hbsObject = {
+        business: data,
+      };
+      console.log(hbsObject);
+      res.render("main", hbsObject);
+    });
   });
 
   app.get("/login", (req, res) => {
@@ -27,7 +39,7 @@ module.exports = function (app) {
     res.sendFile(path.join(__dirname, "../public/members.html"));
   });
 
-  app.get('/business/new', (req, res) => {
+  app.get("/business/new", (req, res) => {
     res.sendFile(path.join(__dirname, "../public/business.html"));
-  })
+  });
 };
