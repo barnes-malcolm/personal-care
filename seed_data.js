@@ -1,7 +1,7 @@
 module.exports = [
   {
     name: "Trade Secret",
-    description: "null",
+    description: "As the leading beauty distributor since 1992, they have national buying power that provides them with the opportunity to leverage relationships with the top professional hair care and beauty brands, and pass these savings on to the customer. They are committed to offering the lowest price on every item they sell, which means that you can shop with confidence.",
     phone: "(713) 984-1700",
     address: "900 Gessner Rd, Houston, TX 77024",
     website: "http://tradesecret.com/",
@@ -710,7 +710,7 @@ module.exports = [
   },
   {
     name: "Flair Salon of Beauty",
-    description: "null",
+    description: "At Houston's Flair Salon of Beauty, you can take care of all of your beauty services at once, including hair care, nail care, and waxing. Every face has a different hairstyle that suits it best. Allow this salon's stylists to pinpoint the right one for you. Flair Salon of Beauty is a salon fully equipped to handle all of your beauty needs. Give them a call today.",
     phone: "(713) 723-0355",
     address: "9704 Hillcroft St, Houston, TX 77096",
     website: "http://salonsofamerica.com/",
@@ -724,7 +724,7 @@ module.exports = [
   },
   {
     name: "Flawless Image",
-    description: "null",
+    description: "Flawless Image is a full service hair salon that's been in business for over 25 years.  We pride ourselves on quality and customer service. Our goal is for every client to leave our salon feeling flawless! Come visit us, we are here to serve you!",
     phone: "(713) 451-3002",
     address: "779 Normandy St, Houston, TX 77015",
     website: "http://www.flawlessimagehairsalon.com/",
@@ -738,14 +738,14 @@ module.exports = [
   },
   {
     name: "Pro-Cuts",
-    description: "null",
+    description: "At Pro-Cuts Salon, our friendly stylists take the time to get to know you. This means you'll get the hair cut you want and the products you need every single time. No matter what haircut or hair care service you're going for, Pro-Cuts provides you value that is the best on the block. Great Style You Can Afford.",
     phone: "(281) 463-1316",
     address: "4978 Highway 6 N Ste K, Houston, TX 77084",
     website: "http://www.pro-cuts.com/",
   },
   {
     name: "The Cutting Room",
-    description: "null",
+    description: "The Cutting Room is a beauty salon committed to your beauty and well-being. Our goal is to provide the finest in salon services and products in a relaxing and professional environment.Mark has over 30 years of extensive training in creating a personalized cut or color to enhance your style. At The Cutting Room we only use the finest products.",
     phone: "(713) 522-5637",
     address: "1425 Westheimer Rd, Houston, TX 77006",
     website: "http://www.tcroom.com/",
@@ -760,7 +760,7 @@ module.exports = [
   },
   {
     name: "True Beauty Makeup Artistry",
-    description: "W",
+    description: "True Beauty Makeup offers In studio and On location makeup and hair styling for any special event. Our makeup services lasts over 20 to 25 hours In studio or On location. We don't believe in over charging the bride or her bridesmaids. We offer same pricing for the entire party. Our entire team offers a elegant stress free environment. Let our team take care of your big special day.",
     phone: "(832) 441-9850",
     address: "10303 Northwest Fwy, Houston, TX 77040",
     website: "http://www.tbmartistry.com/",
@@ -845,7 +845,7 @@ module.exports = [
   },
   {
     name: "Texas Hair Team",
-    description: "null",
+    description: "Welcome to Texas Hair Team, where your hair is pampered and treated by professional stylists to maintain a healthy color and glow. We promise our services are worth the time and money, and once you experience what Texas Hair Team has to offer, you'll dump your box dye in the trash and keep coming back!",
     phone: "(281) 454-5888",
     address: "12710 W Lake Houston Pkwy Ste C, Houston, TX 77044",
     website: "http://www.hairsalonflairteamllc.com/",
