@@ -1,50 +1,59 @@
 <div class="container">
   <div class="row">
-    <div class="col-sm"><!--div empty for button spacing--></div>
-    <div class="col-sm"><!--div empty for button spacing--></div>
-    <div class="col-sm"><a href="/public/signup.html"><button type="button" class="btn btn-warning">Sign up for free!</button></a></div>
+    <div class="col-sm">
+      <!--div empty for button spacing-->
+    </div>
+    <div class="col-sm">
+      <!--div empty for button spacing-->
+    </div>
+    <div class="col-sm"><a href="/signup"><button type="button" class="btn btn-warning">Sign up for free!</button></a>
+    </div>
   </div>
 </div>
-  
-  <h1>Results for {{ category }} in Houston</h1>
-  
-  <div class="results">
-    <div class="row">
-    <div class="col"><!--div empty for button spacing--></div>
+
+<h1>Results for {{ category }} in Houston</h1>
+
+<div class="results">
+  <div class="row">
+    <div class="col">
+      <!--div empty for button spacing-->
+    </div>
     <div class="col-5">
       {{ results }}
     </div>
-    <div class="col"><!--div empty for button spacing--></div>
+    <div class="col">
+      <!--div empty for button spacing-->
+    </div>
   </div>
-  </div>
-  {{#each data}}
-  <div class="container">
+</div>
+{{#each data}}
+<div class="container">
   <div class="row">
     <div class="col-4">
       <div class="card biz-card" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title"> {{ dataValues.name }} </h5>
-    <p class="card-text"> {{ dataValues.address }} </p>
-    <p class="card-text"> {{ dataValues.phoneNumber }} </p>
-    <a href="#" class="btn btn-primary">Visit website</a>
-  </div>
-</div>
+        <div class="card-body">
+          <h5 class="card-title"> {{ dataValues.name }} </h5>
+          <p class="card-text"> {{ dataValues.address }} </p>
+          <p class="card-text"> {{ dataValues.phoneNumber }} </p>
+          <a href="#" class="btn btn-primary">Visit website</a>
+        </div>
+      </div>
     </div>
     <div class="col-8">
       <div class="jumbotron">
-  <h1 class="display-4">{{ dataValues.name }}</h1>
-  <p class="lead">{{dataValues.description}}</p>
-</div>
+        <h1 class="display-4"><a href="/business/{{dataValues.id}}">{{ dataValues.name }}</a></h1>
+        <p class="lead">{{dataValues.description}}</p>
+      </div>
     </div>
   </div>
 </div>
-  
-  <div class="container">
-    <div class="row" id="reviews">
+
+<div class="container">
+  <div class="row" id="reviews">
     <div class="col">
       {{ reviews }}
     </div>
     <div class="col"></div>
   </div>
-  </div>
-  {{/each }}
+</div>
+{{/each }}
