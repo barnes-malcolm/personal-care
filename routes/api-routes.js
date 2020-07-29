@@ -2,9 +2,9 @@
 const db = require("../models");
 const Sequelize = require("sequelize");
 const passport = require("../config/passport");
-const { request } = require("chai");
+// const { request } = require("chai");
 
-module.exports = function(app) {
+module.exports = function (app) {
   // Using the passport.authenticate middleware with our local strategy.
   // If the user has valid login credentials, send them to the members page.
   // Otherwise the user will be sent an error
@@ -21,9 +21,9 @@ module.exports = function(app) {
   // otherwise send back an error
   app.post("/api/signup", (req, res) => {
     db.User.create({
-      email: req.body.email,
-      password: req.body.password,
-    })
+        email: req.body.email,
+        password: req.body.password,
+      })
       .then(() => {
         res.redirect(307, "/api/login");
       })
@@ -33,11 +33,11 @@ module.exports = function(app) {
   });
   app.post("/api/reviews", (req, res) => {
     db.User.create({
-      title: req.body.title,
-      body: req.body.body,
-      user: req.body.user,
-      businessId: req.body.businessId,
-    })
+        title: req.body.title,
+        body: req.body.body,
+        user: req.body.user,
+        businessId: req.body.businessId,
+      })
       .then(() => {
         res.redirect(307, "/api/login");
       })
@@ -67,35 +67,35 @@ module.exports = function(app) {
   });
 
   //Get route for all bussinesss
-  app.get("/api/allbusiness", function(req, res) {
-    db.Business.findAll({}).then(function(dbbusiness) {
+  app.get("/api/allbusiness", function (req, res) {
+    db.Business.findAll({}).then(function (dbbusiness) {
       res.json(dbbusiness);
     });
   });
   //Search by Business Name
-  app.get("/api/business/name/:query", function(req, res) {
+  app.get("/api/business/name/:query", function (req, res) {
     var response = res;
     db.Business.findAll({
-      limit: 10,
-      where: {
-        // name: { [Sequelize.Op.like]: "%" + req.param.query + "%" },
-        name: req.params.query,
-      },
-    })
-      .then(function(data) {
+        limit: 10,
+        where: {
+          // name: { [Sequelize.Op.like]: "%" + req.param.query + "%" },
+          name: req.params.query,
+        },
+      })
+      .then(function (data) {
         res.json(data);
       })
-      .catch(function(err) {
+      .catch(function (err) {
         console.log(err);
       });
   });
   //To get
-  app.get("/api/business/:id", function(req, res) {
+  app.get("/api/business/:id", function (req, res) {
     db.Business.findAll({
       where: {
         id: req.params.id,
       },
-    }).then(function(dbbusiness) {
+    }).then(function (dbbusiness) {
       res.json(dbbusiness);
     });
   });
@@ -107,7 +107,7 @@ module.exports = function(app) {
       .then((business) => {
         res.json(business);
       })
-      .catch(function(err) {
+      .catch(function (err) {
         console.log(err);
       });
   });
