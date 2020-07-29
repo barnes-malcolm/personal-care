@@ -40,10 +40,20 @@
     <div class="col"></div>
     <div class="col-6">
       <nav class="navbar navbar-light bg-light">
-  <form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search Catgeory" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-  </form>
+  <div class="form-inline" id="searchForm">
+    <input id="searchInput" class="form-control mr-sm-2" type="search" placeholder="Search Catgeory" aria-label="Search">
+    <button id="searchBtn" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </div>
+  <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <label class="input-group-text" for="inputGroupSelect01">Options</label>
+  </div>
+  <select class="custom-select" id="inputGroupSelect01">
+    <option selected>search By...</option>
+    <option value="1">Business Name</option>
+    <option value="2">Local Businesses</option>
+  </select>
+</div>
 </nav>
     </div>
     <div class="col"></div>
@@ -56,6 +66,6 @@
 
         {{{body}}}
 
-    
+  <script src="/js/search.js"></script>  
 </body>
 </html>

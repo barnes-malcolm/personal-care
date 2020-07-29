@@ -17,3 +17,34 @@
     <div class="col"><!--div empty for button spacing--></div>
   </div>
   </div>
+  {{#each data}}
+  <div class="container">
+  <div class="row">
+    <div class="col-4">
+      <div class="card biz-card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"> {{ dataValues.name }} </h5>
+    <p class="card-text"> {{ dataValues.address }} </p>
+    <p class="card-text"> {{ dataValues.phoneNumber }} </p>
+    <a href="#" class="btn btn-primary">Visit website</a>
+  </div>
+</div>
+    </div>
+    <div class="col-8">
+      <div class="jumbotron">
+  <h1 class="display-4">{{ dataValues.name }}</h1>
+  <p class="lead">{{dataValues.description}}</p>
+</div>
+    </div>
+  </div>
+</div>
+  
+  <div class="container">
+    <div class="row" id="reviews">
+    <div class="col">
+      {{ reviews }}
+    </div>
+    <div class="col"></div>
+  </div>
+  </div>
+  {{/each }}
