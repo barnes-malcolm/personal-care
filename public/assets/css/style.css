@@ -12,6 +12,11 @@ form.login {
   background-color: whitesmoke;
 }
 
+.move-box {
+
+margin: 50px !important;
+}
+
 .font {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: large;
@@ -27,6 +32,12 @@ form.login {
     background-position: center;
 }
 
+.images {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 25px;
+}
+
 #nav-color {
   background-color: lightblue !important;
 }
@@ -35,7 +46,7 @@ form.login {
 h1 {
   text-align: center;
   margin: 50px;
-  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .btn-warning {
@@ -63,4 +74,16 @@ h1 {
   text-align: center;
   margin: auto;
   padding: 50px;
+}
+
+.categories {
+  height: 100vh;
+  text-align: justify;
+}
+h2 {
+  color: #1c87c9;
+}
+h2:target {
+  color: white;
+  background: #1c87c9;
 }
