@@ -2,7 +2,6 @@
 const db = require("../models");
 const Sequelize = require("sequelize");
 const passport = require("../config/passport");
-const { request } = require("chai");
 
 module.exports = function(app) {
   // Using the passport.authenticate middleware with our local strategy.
@@ -31,7 +30,20 @@ module.exports = function(app) {
         res.status(401).json(err);
       });
   });
-
+  app.post("/api/reviews", (req, res) => {
+    db.User.create({
+      title: req.body.title,
+      body: req.body.body,
+      user: req.body.user,
+      businessId: req.body.businessId,
+    })
+      .then(() => {
+        res.redirect(307, "/api/login");
+      })
+      .catch((err) => {
+        res.status(401).json(err);
+      });
+  });
   // Route for logging user out
   app.get("/logout", (req, res) => {
     req.logout();
@@ -56,6 +68,17 @@ module.exports = function(app) {
   //Get route for all bussinesss
   app.get("/api/allbusiness", function(req, res) {
     db.Business.findAll({}).then(function(dbbusiness) {
+      res.json(dbbusiness);
+    });
+  });
+  app.post("/api/newbusiness", function(req, res) {
+    db.Business.create({
+      name: req.body.name,
+      description: req.body.description,
+      phone: req.body.phone,
+      address: req.body.address,
+      website: req.body.website,
+    }).then(function(dbbusiness) {
       res.json(dbbusiness);
     });
   });

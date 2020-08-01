@@ -9,7 +9,16 @@ var config = require(__dirname + "/../config/config.json")[env];
 var db = {};
 
 if (config.use_env_variable) {
-  var sequelize = new Sequelize(process.env[config.use_env_variable]);
+
+  var sequelize = new Sequelize(
+    process.env[config.database],
+    process.env[config.username],
+    process.env[config.password], {
+      host: process.env[config.host],
+      port: config.port,
+      dialect: config.dialect
+    }
+  );
 } else {
   var sequelize = new Sequelize(
     config.database,
@@ -20,12 +29,12 @@ if (config.use_env_variable) {
 }
 
 fs.readdirSync(__dirname)
-  .filter(function(file) {
+  .filter(function (file) {
     return (
       file.indexOf(".") !== 0 && file !== basename && file.slice(-3) === ".js"
     );
   })
-  .forEach(function(file) {
+  .forEach(function (file) {
     console.log(path.join(__dirname, file));
     var model = require(path.join(__dirname, file))(
       sequelize,
@@ -35,7 +44,7 @@ fs.readdirSync(__dirname)
     db[model.name] = model;
   });
 
-Object.keys(db).forEach(function(modelName) {
+Object.keys(db).forEach(function (modelName) {
   if (db[modelName].associate) {
     db[modelName].associate(db);
   }

@@ -12,6 +12,11 @@ form.login {
   background-color: whitesmoke;
 }
 
+.move-box {
+
+margin: 50px !important;
+}
+
 .font {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: large;
@@ -22,14 +27,19 @@ form.login {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/empty-sofa-in-hair-salon-1509396-1280x960.jpg");
+    /*background-image: url("/images/empty-sofa-in-hair-salon-1509396-1280x960.jpg");*/
     background-size: cover;
     background-position: center;
 }
 
+#searchForm {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .images {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   margin-bottom: 25px;
 }
 
@@ -41,7 +51,7 @@ form.login {
 h1 {
   text-align: center;
   margin: 50px;
-  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .btn-warning {
@@ -69,4 +79,21 @@ h1 {
   text-align: center;
   margin: auto;
   padding: 50px;
+}
+
+.categories {
+  height: 100vh;
+  text-align: justify;
+}
+h2 {
+  color: #1c87c9;
+}
+h2:target {
+  color: white;
+  background: #1c87c9;
+}
+
+#new-biz {
+  margin-bottom: 50px;
+  background-color: white !important;
 }

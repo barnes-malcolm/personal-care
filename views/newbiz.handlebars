@@ -1,0 +1,50 @@
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/logout">
+          Logout
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div class="container border" id="new-biz">
+  <h1>Welcome to Personal Care<span class="member-name"></span></h1>
+  &nbsp;
+  <h3>Enter your business information below <span class="register"></span></h3>
+  <p>View Your Business <a href="/business">here</a></p>
+
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <form class="signup" id="businessSignup">
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Business Name</label>
+            <input class="form-control" type="text" name="name" placeholder="Business name">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Description</label>
+            <textarea class="form-control" name="description" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Business Address</label>
+            <input type="text" class="form-control" name="address" id="inputAddress" placeholder="1234 Main St.">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Phone Number</label>
+            <input class="form-control" type="text" name="phone" placeholder="(  ) _ _ _ - _ _ _ _">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Select Category</label>
+            <select class="form-control" id="exampleFormControlSelect1" name="category">
+              <option>Barbers</option>
+              <option>Beauty Salons</option>
+              <option>Day Spas</option>
+            </select>
+          </div>
+          <a href="/business"><button type="submit" class="btn btn-primary">Register</button></a>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/members.js"></script>
