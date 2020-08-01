@@ -2,7 +2,6 @@
 const db = require("../models");
 const Sequelize = require("sequelize");
 const passport = require("../config/passport");
-// const { request } = require("chai");
 
 module.exports = function(app) {
   // Using the passport.authenticate middleware with our local strategy.
