@@ -1,7 +1,3 @@
-const Sequelize = require("sequelize");
-
-const sequelize = require("../config/connection");
-const Business = require("./business.js");
 module.exports = function(sequelize, DataTypes) {
   var Reviews = sequelize.define("Reviews", {
     title: {
