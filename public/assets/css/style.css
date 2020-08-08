@@ -32,6 +32,7 @@ margin: 50px !important;
     background-position: center;
 }
 
+<<<<<<< HEAD:public/assets/css/style.css
 #searchForm {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -40,6 +41,11 @@ margin: 50px !important;
 .images {
   height: 100px;
   width: 100px;
+=======
+.images {
+  height: 200px;
+  width: 200px;
+>>>>>>> 8e603fa5e70dfbf5806bdd6a9eb0684725610ed4:public/stylesheets/style.css
   margin-bottom: 25px;
 }
 
